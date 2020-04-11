@@ -6,10 +6,10 @@ I am programming this as my prototype for my software specifications project in 
 
 ## Demonstration 
 ### Adding an Employee
-![Gif Demonstration of adding a new Employee](https://media.giphy.com/media/fXsjZwW8c98tHH5gYP/giphy.gif)
+![Gif Demonstration of adding a new Employee](https://media.giphy.com/media/giRiKlzwolkvq7ThbY/giphy.gif)
 
 ### Searching for an Employee
-![Gif Demonstration of searching for User](https://media.giphy.com/media/lrhxWFm2oyWiXDigtk/giphy.gif)
+![Gif Demonstration of searching for User](https://media.giphy.com/media/Y0VXaUlzntyv3CrqUQ/giphy.gif)
 
 ### Creating a Group 
 ![Gif Demonstration of Group creation](https://media.giphy.com/media/kcTZiZlezYxYru4GuB/giphy.gif)
