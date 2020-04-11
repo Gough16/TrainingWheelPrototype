@@ -6,7 +6,7 @@ I am programming this as my prototype for my software specifications project in 
 
 ## Demonstration 
 ### Adding a product 
-![Gif Demonstration of adding a product](https://media.giphy.com/media/gM0e1yIwNe6RLSwXhO/giphy.gif)
+![Gif Demonstration of adding a new Employee](https://media.giphy.com/media/QZPJ2zwhxSP7nx0rNU/giphy.gif)
 
 ### Producing a product
 ![Gif Demonstration of producing a product](https://media.giphy.com/media/SpolCZ9n00FJ9sE33M/giphy.gif)
