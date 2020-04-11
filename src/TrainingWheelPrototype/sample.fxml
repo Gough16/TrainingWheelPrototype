@@ -74,7 +74,7 @@
             <AnchorPane prefHeight="200.0" prefWidth="200.0">
               <children>
                 <Label layoutX="52.0" layoutY="94.0" text="Employee Name: " textFill="#0d10e4"/>
-                <Label layoutX="163.0" layoutY="14.0" text="Searching For Employee"
+                <Label layoutX="163.0" layoutY="14.0" text="Adding New Employee"
                   textFill="#eb860a">
                   <font>
                     <Font size="24.0"/>
