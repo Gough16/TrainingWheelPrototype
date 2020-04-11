@@ -5,17 +5,17 @@ This program is software for a immunization tracker.
 I am programming this as my prototype for my software specifications project in my junior year at Florida Gulf Coast University
 
 ## Demonstration 
-### Adding a product 
-![Gif Demonstration of adding a new Employee](https://media.giphy.com/media/QZPJ2zwhxSP7nx0rNU/giphy.gif)
+### Adding an Employee
+![Gif Demonstration of adding a new Employee](https://media.giphy.com/media/fXsjZwW8c98tHH5gYP/giphy.gif)
 
-### Producing a product
-![Gif Demonstration of producing a product](https://media.giphy.com/media/SpolCZ9n00FJ9sE33M/giphy.gif)
+### Searching for an Employee
+![Gif Demonstration of searching for User](https://media.giphy.com/media/lrhxWFm2oyWiXDigtk/giphy.gif)
 
-### Displaying employee information
-![Gif Demonstration of employee information](https://media.giphy.com/media/fwndSWSOcNXh7gqHOf/giphy.gif)
+### Creating a Group 
+![Gif Demonstration of Group creation](https://media.giphy.com/media/kcTZiZlezYxYru4GuB/giphy.gif)
 
-### Handling errors
-![Gif Demonstration of error handling](https://media.giphy.com/media/lOm0hNxnsRG1poMRVI/giphy.gif)
+### Charting Group Data
+![Gif Demonstration of charting group data](https://media.giphy.com/media/dYfkMHiTaADQhkmVJa/giphy.gif)
 
 ## Documentation 
 
