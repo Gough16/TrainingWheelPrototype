@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+  prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1"
+  xmlns:fx="http://javafx.com/fxml/1" fx:controller="TrainingWheelPrototype.Controller">
+  <children>
+    <TabPane prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE"
+      AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+      AnchorPane.topAnchor="0.0">
+      <tabs>
+        <Tab text="Project Manager Space">
+          <content>
+            <BorderPane prefHeight="200.0" prefWidth="200.0">
+              <top>
+                <AnchorPane BorderPane.alignment="CENTER">
+                  <children>
+                    <Label alignment="CENTER" contentDisplay="CENTER" layoutX="178.0"
+                      prefHeight="10.0" prefWidth="245.0" text="TrainingWheel"
+                      textAlignment="CENTER" textFill="#eb860a">
+                      <font>
+                        <Font size="35.0"/>
+                      </font>
+                    </Label>
+                  </children>
+                </AnchorPane>
+              </top>
+              <left>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                  <children>
+                    <ListView fx:id="listView_ClientNames" layoutY="29.0" prefHeight="217.0"
+                      prefWidth="200.0"/>
+                  </children>
+                </AnchorPane>
+              </left>
+              <right>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                  <children>
+                    <ListView fx:id="listView_ClientDates" layoutX="43.0" layoutY="31.0"
+                      prefHeight="217.0" prefWidth="200.0"/>
+                  </children>
+                </AnchorPane>
+              </right>
+              <center>
+                <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                  <children>
+                    <Label layoutX="67.0" layoutY="54.0" text="EHR training"/>
+                    <Label layoutX="94.0" layoutY="80.0" text="and"/>
+                    <Label layoutX="56.0" layoutY="107.0" text="Clinical Support"/>
+                    <Label layoutX="73.0" layoutY="138.0" text="Resources"/>
+                  </children>
+                </AnchorPane>
+              </center>
+            </BorderPane>
+          </content>
+        </Tab>
+        <Tab text="New Employee Space">
+          <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Label layoutX="52.0" layoutY="94.0" text="Employee Name: " textFill="#0d10e4"/>
+                <Label layoutX="163.0" layoutY="14.0" text="Searching For Employee"
+                  textFill="#eb860a">
+                  <font>
+                    <Font size="24.0"/>
+                  </font>
+                </Label>
+                <Label layoutX="53.0" layoutY="136.0" text="Employee D.O.B: " textFill="#0d10e4"/>
+                <Label layoutX="44.0" layoutY="184.0" text="Employee Hire Date:"
+                  textFill="#0d10e4"/>
+                <TextField layoutX="268.0" layoutY="89.0"/>
+                <DatePicker layoutX="269.0" layoutY="131.0" prefHeight="28.0" prefWidth="165.0"/>
+                <Button fx:id="button_AddEmployee" layoutX="331.0" layoutY="279.0"
+                  mnemonicParsing="false" onAction="#handleAddEmployeeButton" text="Add Employee"
+                  textFill="#0d10e4"/>
+                <DatePicker layoutX="269.0" layoutY="178.0" prefHeight="28.0" prefWidth="165.0"/>
+                <Label fx:id="label_AddEmployee" layoutX="368.0" layoutY="329.0"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Employee Access">
+          <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Label layoutX="163.0" layoutY="14.0" text="Searching For Employee"
+                  textFill="#eb860a">
+                  <font>
+                    <Font size="24.0"/>
+                  </font>
+                </Label>
+                <Label layoutX="53.0" layoutY="175.0" text="Employee D.O.B: " textFill="#0d10e4"/>
+                <Label layoutX="64.0" layoutY="135.0" text="Employee ID: " textFill="#0d10e4"/>
+                <Label layoutX="44.0" layoutY="218.0" text="Employee Hire Date:"
+                  textFill="#0d10e4"/>
+                <TextField layoutX="268.0" layoutY="89.0"/>
+                <TextField layoutX="268.0" layoutY="130.0"/>
+                <DatePicker layoutX="269.0" layoutY="170.0" prefHeight="28.0" prefWidth="165.0"/>
+                <Button fx:id="button_Search" layoutX="374.0" layoutY="278.0"
+                  mnemonicParsing="false" onAction="#handleEmployeeSearchButton" text="Search"
+                  textFill="#0d10e4"/>
+                <DatePicker layoutX="269.0" layoutY="213.0" prefHeight="28.0" prefWidth="165.0"/>
+                <Label layoutX="55.0" layoutY="94.0"/>
+                <Label layoutX="53.0" layoutY="94.0" text="Employee Name: " textFill="#0d10e4"/>
+                <Label fx:id="label_SearchEmployee" layoutX="373.0" layoutY="336.0"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Group Creation ">
+          <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Label layoutX="182.0" layoutY="14.0" text="New Group Creation " textFill="#eb860a">
+                  <font>
+                    <Font size="24.0"/>
+                  </font>
+                </Label>
+                <Label layoutX="82.0" layoutY="167.0" text="Project Name:" textFill="#0d10e4"/>
+                <Label layoutX="91.0" layoutY="203.0" text="Project ID: " textFill="#0d10e4"/>
+                <Label layoutX="28.0" layoutY="89.0" text="Employees Assigned to Project:"
+                  textFill="#0d10e4"/>
+                <Label layoutX="84.0" layoutY="132.0" text="Client Name: " textFill="#0d10e4"/>
+                <Label layoutX="68.0" layoutY="240.0" text="Project Start Date:"
+                  textFill="#0d10e4"/>
+                <Label layoutX="72.0" layoutY="277.0" text="Project End Date:" textFill="#0d10e4"/>
+                <TextField layoutX="310.0" layoutY="127.0" promptText="Enter Name"/>
+                <TextField layoutX="310.0" layoutY="162.0" promptText="Enter Name"/>
+                <TextField layoutX="310.0" layoutY="198.0" promptText="Identification"/>
+                <DatePicker layoutX="312.0" layoutY="235.0"/>
+                <DatePicker layoutX="312.0" layoutY="272.0"/>
+                <Button fx:id="button_CreateGroup" layoutX="405.0" layoutY="319.0"
+                  mnemonicParsing="false" onAction="#handleCreateGroupButton" text="Create Group"
+                  textFill="#0d10e4"/>
+                <ComboBox fx:id="employeeSelection_ComboBox" layoutX="310.0" layoutY="84.0"
+                  prefHeight="27.0" prefWidth="162.0"/>
+                <Label fx:id="label_CreateGroup" layoutX="108.0" layoutY="311.0"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Group Charting">
+          <content>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+              <children>
+                <Label layoutX="149.0" layoutY="14.0" text="Display Group Information "
+                  textFill="#eb860a">
+                  <font>
+                    <Font size="24.0"/>
+                  </font>
+                </Label>
+                <BarChart fx:id="barChart_EmployeeRecords" layoutX="40.0" layoutY="108.0"
+                  prefHeight="259.0" prefWidth="521.0"
+                  title="# of Employee Immunizations Submitted " AnchorPane.bottomAnchor="0.0">
+                  <xAxis>
+                    <CategoryAxis prefHeight="18.0" prefWidth="278.0" side="BOTTOM"/>
+                  </xAxis>
+                  <yAxis>
+                    <NumberAxis side="LEFT"/>
+                  </yAxis>
+                </BarChart>
+                <Button fx:id="button_Display" layoutX="500.0" layoutY="64.0"
+                  mnemonicParsing="false" onAction="#handleDisplayButton" text="Display"
+                  textFill="#0d10e4"/>
+                <Label layoutX="40.0" layoutY="69.0" text="Project ID: " textFill="#0d10e4"/>
+                <TextField layoutX="217.0" layoutY="64.0"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPane>
+  </children>
+  <stylesheets>
+    <URL value="@style.css"/>
+  </stylesheets>
+</AnchorPane>
