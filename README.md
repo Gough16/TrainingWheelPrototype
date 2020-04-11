@@ -19,9 +19,7 @@ I am programming this as my prototype for my software specifications project in 
 
 ## Documentation 
 
-For this project I elicited stakeholder requirements and used them to make a mock up and then I developed the prototype. 
-Developing this prototype allows for the client (TrainingWheel) to get a better feel of what a clickable version of the product
-might look like and allows them to express any concerns that they have with initial designs before the product is complete. 
+For this project I elicited stakeholder requirements and used them to make a mock-up, and used stakeholder requirements to developed the prototype. Developing this prototype allows for the client, TrainingWheel, to get a better feel of what a clickable version of the product might look like. It also allows stakeholders to express any concerns that they have with initial designs before the product is complete. Using the agile approach, wireframes, mock-ups and a previous prototype allowed for the elicitation of requirements on design constraints that led to the development of this prototype for the client. 
 
 ## Getting Started -> Software needed
 
@@ -51,6 +49,7 @@ This project is licensed under the MIT License.
 * Swebok
 * IEEE
 * https://giphy.com -> creation of gif
+* https://www.youtube.com/watch?v=CMmeFZyWWSI -> Graphs with JavaFx and Scenebuilder
 
 ## History
 
