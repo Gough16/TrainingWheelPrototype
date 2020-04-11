@@ -118,6 +118,8 @@ public class Controller {
    * This method prints bar chart data to the UI when they press the display button.
    */
   public void handleDisplayButton() {
+
+    //Display chart data when the button is selected
     XYChart.Series trainingWheel = new Series();
     trainingWheel.getData().add(new XYChart.Data("With Submissions", 243));
     trainingWheel.getData().add(new XYChart.Data("Without Submissions", 26));
